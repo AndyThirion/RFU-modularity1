@@ -1,0 +1,49 @@
+/* ADD YOUR STYLES HERE */
+
+/*EX 1 - DATA TABLE*/
+.data-table td, th {
+	padding-right: 120px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+.data-table .first-cell {
+	padding-right: 25px;
+}
+
+.data-table td, th {
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #B0B0B0;
+}
+
+.data-table .last-row td{
+	border-bottom-style: none;
+}
+
+/*EX 2 - STATS*/
+
+.stats td{
+	padding-right: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+}
+
+.stats .stats-number {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.stats .stats-caption{
+	font-size: .75em;
+	color: #B0B0B0;
+}
+
+.stats tr {
+	border-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #B0B0B0;
+}
