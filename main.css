@@ -1,7 +1,7 @@
 /* ADD YOUR STYLES HERE */
 
 /*EX 1 - DATA TABLE*/
-.data-table td, th {
+.data-table td, .data-table th {
 	padding-right: 120px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -12,7 +12,7 @@
 	padding-right: 25px;
 }
 
-.data-table td, th {
+.data-table td, .data-table th {
 	border-bottom-style: solid;
 	border-width: 1px;
 	border-color: #B0B0B0;
@@ -47,3 +47,60 @@
 	border-bottom-style: solid;
 	border-color: #B0B0B0;
 }
+
+
+/*EX 3 - BAR CHART*/
+
+
+.bar-chart th {
+	border: none;
+	padding-right: 5px;
+}
+
+.bar-chart td {
+	width: 85%;
+}
+
+.bar-chart div {
+	border-radius: 3px;
+	padding: 3px;
+	padding-left: 6px;
+	color: white;
+	background-color: DodgerBlue;
+}
+
+
+/*EX 4 - LIGHTBOX*/
+
+
+.lightbox-background {
+	height: 600px;
+	width: 800px;
+	background-color: #535353;
+	z-index: -1;
+}
+
+.lightbox-box {
+	position: relative;
+	margin: auto;
+	top: 20%;
+	/*top: 60px;
+	left: 85px;*/
+	height: 40%;
+	width: 60%;
+	background-color: white;
+	padding: 30px;
+	border-radius: 12px;
+}
+
+.lightbox-close {
+	position: absolute;
+	bottom: 10%;
+	right: 5%;
+	background-color: LightCoral;
+	border-radius: 6px;
+	color: white;
+	padding: 8px 40px;
+	float: right;
+}
+
