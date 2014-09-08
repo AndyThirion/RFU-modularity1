@@ -104,3 +104,27 @@
 	float: right;
 }
 
+
+/*EX 5 - MEDIA BLOCK*/
+
+
+.media-img {
+	float: left;
+	margin-right: 12px;
+}
+
+.media-content {
+	float: left;
+	width: 75%;
+}
+
+.media-img-sm{
+	float: left;
+	margin-right: 9px;
+}
+
+.media-content-sm{
+	float: left;
+	width: 90%;
+	font-size: .8em;
+}
